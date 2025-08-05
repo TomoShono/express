@@ -4,7 +4,7 @@
 
  // 接続情報を設定
 const { MongoClient } = require("mongodb");
- const uri = "+++++";
+ const uri = "mongodb+srv://mchi3921:NrZc1QFCqVajrK4l@test.dccjt43.mongodb.net/?retryWrites=true&w=majority&appName=test";
  const client = new MongoClient(uri);
 
 
